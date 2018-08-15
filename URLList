@@ -1,0 +1,37 @@
+http://apps.webofknowledge.com.libezp.lib.lsu.edu/WOS_AdvancedSearch_input.do?product=WOS&search_mode=AdvancedSearch&replaceSetId=&goToPageLoc=SearchHistoryTableBanner&SID=6EdDEUNVu3VxOHRzNNP&errorQid=1#SearchHistoryTableBanner
+
+First link of search history
+
+
+
+http://apps.webofknowledge.com.libezp.lib.lsu.edu/RAMore.do?product=WOS&search_mode=AdvancedSearch&SID=6EdDEUNVu3VxOHRzNNP&qid=1&ra_mode=more&ra_name=PublicationYear&colName=WOS&viewType=raMore
+
+second link where we can refine the result... Use this link to refine the results before running the scraper.py script
+
+
+
+http://apps.webofknowledge.com.libezp.lib.lsu.edu/Search.do?product=WOS&SID=6EdDEUNVu3VxOHRzNNP&search_mode=AdvancedSearch&prID=3c031cec-dcfe-4317-b8fd-e6adefd2ae0c
+
+third link of refined results of 2018 year with the others specified fields
+
+
+
+http://wcs.webofknowledge.com.libezp.lib.lsu.edu/RA/analyze.do?product=WOS&SID=6EdDEUNVu3VxOHRzNNP&field=TASCA_JCRCategories_JCRCategories_en&yearSort=false
+
+fourth link of citing details and web of science categories 
+
+
+
+http://wcs.webofknowledge.com/RA/analyze.do?product=WOS&SID=6EdDEUNVu3VxOHRzNNP&field=OG_OrgEnhancedName_OrgEnhancedName_en&yearSort=false
+
+fifth and the final link where we have to scrape the data from(for 2018 year)
+
+
+
+final link for 2017
+http://wcs.webofknowledge.com.libezp.lib.lsu.edu/RA/analyze.do?product=WOS&SID=6EdDEUNVu3VxOHRzNNP&field=OG_OrgEnhancedName_OrgEnhancedName_en&yearSort=false
+
+http://wcs.webofknowledge.com/RA/analyze.do?product=WOS&SID=6EdDEUNVu3VxOHRzNNP&field=OG_OrgEnhancedName_OrgEnhancedName_en&yearSort=false
+
+
+
