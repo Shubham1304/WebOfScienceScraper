@@ -47,10 +47,21 @@ def scrape(source,name):
 		str1.append(tds[2].text.strip())
 		str1.append("\"")
 		str1.append(",")
-	str1.append("}")
 	var = ''.join(str1)
 	file.write(var)
 	file.close()
+	correct_json_data(name)
+
+def correct_json_data(name):
+	instituteFileRead=open('./'+name+'/'+sys.argv[3]+'.json',"r")
+	finalstr=(instituteFileRead.read())
+		finalstr = finalstr[:-1]
+	finalstr+="}"
+	instituteFileRead.close()
+	instituteFileWrite=open('./'+name+'/'+sys.argv[3]+'.json',"w")
+	var = ''.join(finalstr)
+	instituteFileWrite.write(var)
+	instituteFileWrite.close()	
 		
 def make_directory(name):
     path = "./"+name
